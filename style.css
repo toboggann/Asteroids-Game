@@ -1,0 +1,91 @@
+#main { /*centered*/
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	align: center
+}
+body {
+	background-image: url(https://i.pinimg.com/originals/7e/ea/01/7eea01a7a420f7bcc39064b7dc9252fd.jpg);
+}
+.optionsButton {
+	width: 26%;
+	border-radius: 4px;
+	background-color: rgb(0, 137, 183);
+	border: 2px solid blue;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px;
+	transition-duration: 0.5s;
+}
+.optionsButton:hover {
+	background-color: rgb(0, 42, 139);
+}
+
+.collapsible {
+	background-color: #0f0f0f;
+	color: rgb(17, 52, 210);
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 18px;
+}
+.options {
+	padding: 0 18px;
+	display: none;
+	color: white;
+	overflow: hidden;
+	background-color: #252525;
+}
+#other {
+	width: 50%;
+	margin: 0 auto;
+}
+.CategoryLabel {
+	display: inline-block;
+	padding: 15px 32px;
+	font-size: 22px;
+	color: white;
+}
+
+.popup {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.popupcontent {
+  background-color: #00a7ad;
+  margin: auto;
+  padding: 20px;
+  border: 20px solid rgb(0, 2, 49);
+  width: 80%;
+  color:black;
+}
+
+.closepopup {
+  color: #000000;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.closepopup:hover,
+.closepopup:focus {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
